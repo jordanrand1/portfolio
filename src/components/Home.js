@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <>
         <Hero />
-        <Projects /> 
+        <Projects history={this.props.history}/> 
       </>
     )
   }

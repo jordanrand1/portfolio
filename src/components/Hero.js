@@ -10,9 +10,17 @@ const Image = styled.div`
   padding-top: 30px;
 `
 
+const Text = styled.div`
+  height: 100%;
+  line-height: 400px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+`
+
 const Hero = () => (
   <Image>
-    Test
+    <Text>Welcome</Text>
   </Image>
 )
 
