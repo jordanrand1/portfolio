@@ -2,6 +2,7 @@ import React from 'react';
 import { Styled } from 'styled-components';
 import Hero from './Hero';
 import Projects from './Projects';
+import HomeAbout from './HomeAbout';
 
 
 class Home extends React.Component {
@@ -9,7 +10,8 @@ class Home extends React.Component {
     return (
       <>
         <Hero />
-        <Projects history={this.props.history}/> 
+        <Projects history={this.props.history}/>
+        <HomeAbout />
       </>
     )
   }
