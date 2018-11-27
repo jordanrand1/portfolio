@@ -34,11 +34,6 @@ width: 32%;
 font-size: 20px;
 list-style-type: none;
 transition: 2s ease-in-out;
-
-&:hover{
-  width: 100%;
-  height: 100%;
-}
 `
 
 const HomeAbout = () => (
