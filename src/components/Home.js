@@ -36,7 +36,7 @@ render() {
                     <div className="nav-wrap">
                       <h1 className="nav-logo">Jordan Rand</h1>
                       <a href="https://github.com/jordanrand1" className="github"><i className="fab fa-github-alt"></i></a>
-                      <a href="https://twitter.com/Jordan_Rand1" className="twitter"><i className="fab fa-twitter"></i></a>
+                      <a href="https://twitter.com/thedesertdev" className="twitter"><i className="fab fa-twitter"></i></a>
                       <a href="https://www.linkedin.com/in/jordan-r-a75a85111/" className="linkedin"><i className="fab fa-linkedin"></i></a>
                       <a href="https://www.youtube.com/channel/UCZ6lkfrsS4_vTmVOyHVW9iw" className="youtube"><i className="fab fa-youtube"></i></a>
                     </div>
@@ -121,7 +121,7 @@ render() {
                     <h2>Follow Me</h2>
                     <div className="footer-icon-bar">
                       <a href="https://github.com/jordanrand1" className="github"><i className="fab fa-github-alt"></i></a>
-                      <a href="https://twitter.com/Jordan_Rand1" className="twitter"><i className="fab fa-twitter"></i></a>
+                      <a href="https://twitter.com/thedesertdev" className="twitter"><i className="fab fa-twitter"></i></a>
                       <a href="https://www.linkedin.com/in/jordan-r-a75a85111/" className="linkedin"><i className="fab fa-linkedin"></i></a>
                       <a href="https://www.youtube.com/channel/UCZ6lkfrsS4_vTmVOyHVW9iw" className="youtube"><i className="fab fa-youtube"></i></a>
                     </div>
