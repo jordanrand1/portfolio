@@ -1,0 +1,98 @@
+.non-visible{
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {opacity: 0; }
+  to {opacity: 1;}
+}
+.fade-in-element {
+animation: fade-in 1.4s;
+}
+
+.footer-icon-bar{
+  position: relative;
+  width: 100%;
+}
+
+.footer-icon-bar a{
+  color: #a78240;
+  padding: 15px 20px 15px 20px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.footer-icon-bar a:hover{
+  background-color: #000;
+  color: white;
+}
+
+.icon-bar{
+  z-index: 20;
+  position: fixed;
+  left:0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.popout.animate{
+  animation: animation 5s forwards;
+}
+
+.nav-wrap a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #a78240;
+  font-size: 20px;
+}
+
+.nav-wrap a:hover {
+    color: white;
+}
+
+.github {
+  background: transparent;
+  color: white;
+}
+
+.twitter {
+  background: transparent;
+  color: white;
+}
+
+.linkedin {
+  background: transparent;
+  color: white;
+}
+
+.youtube {
+  background: transparent;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+.footer-icons{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #a78240;
+  font-size: 20px;
+}
+
+@keyframes animation{
+  0%{
+    left: -30px;
+  }
+  100%{
+    left: 0;
+  }
+}

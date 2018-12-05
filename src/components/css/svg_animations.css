@@ -1,0 +1,11 @@
+#path825{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 200;
+    animation: home-drawing-anim 5s 1s forwards linear;
+}
+
+@keyframes home-drawing-anim{
+    to{
+        stroke-dasharray: 0;
+    }
+}
