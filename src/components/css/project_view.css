@@ -1,0 +1,51 @@
+.devices {
+  display: flex;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.back-button {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #a78240;
+  border: 2px solid #a78240;
+  width: 100px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 30px;
+
+}
+
+.phone {
+  background-image: url("../images/phone.png");
+  background-size: contain;
+
+}
+
+.mac {
+  background-image: url('../images/mac.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.inner-image {
+  position: absolute;
+  object-fit: contain;
+  margin-top: 8%;
+  max-width: 66%;
+  left: 17%;
+  max-height: 500px;
+}
+
+@media (min-width: 1260px){
+  .inner-image {
+    max-width: 65%;
+  }
+}

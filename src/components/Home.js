@@ -88,10 +88,10 @@ render() {
             <p></p>
 
             <div className="grid2x2">
-                <a target="_blank" href="https://bo4companion.netlify.com/" className="gbox gbox1"><div>BO4 Companion</div></a>
+                <Link to="/bo4companion" className="gbox gbox1"><div>BO4 Companion</div></Link>
                 <Link to="/yield" className="gbox gbox2"><div>Yield</div></Link>
-                <a target="_blank" href="https://movie-database-app.netlify.com/" className="gbox gbox3"><div>Movie Database App</div></a>
-                <Link to="/flashcardapp" className="gbox gbox4"><div>Flash Cards (WIP)</div></Link>
+                <Link to="/moviedb" className="gbox gbox3"><div>Movie Database App</div></Link>
+                <Link to="/flashcard" className="gbox gbox4"><div>Flash Cards (WIP)</div></Link>
             </div>
 
             <h2>Resume</h2>
