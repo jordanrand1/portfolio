@@ -88,9 +88,9 @@ render() {
             <p></p>
 
             <div className="grid2x2">
-                <a href="https://bo4companion.netlify.com/" className="gbox gbox1"><div>BO4 Companion</div></a>
+                <a target="_blank" href="https://bo4companion.netlify.com/" className="gbox gbox1"><div>BO4 Companion</div></a>
                 <Link to="/yield" className="gbox gbox2"><div>Yield</div></Link>
-                <a href="https://movie-database-app.netlify.com/" className="gbox gbox3"><div>Movie Database App</div></a>
+                <a target="_blank" href="https://movie-database-app.netlify.com/" className="gbox gbox3"><div>Movie Database App</div></a>
                 <Link to="/flashcardapp" className="gbox gbox4"><div>Flash Cards (WIP)</div></Link>
             </div>
 

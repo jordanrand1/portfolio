@@ -347,4 +347,16 @@ h2{
     .resume { 
         height: 300px !important;
     }
+
+    .grid2x2{
+        width: 100%;
+        height: 500px;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .grid2x2 > a  {
+        flex-direction: column;
+        flex-basis: 80%;
+    }
 }
