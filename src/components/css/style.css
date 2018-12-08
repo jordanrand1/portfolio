@@ -1,3 +1,18 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-item {
+    transition: 1s;
+}
+
+.skill-item:hover {
+    transform: scale(1.4);
+    transition: 1s;
+}
+
 body{
     overflow-x: hidden
 }
@@ -198,7 +213,7 @@ h2{
     font-size: 36px;
 }
 .gbox1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../images/bo4home.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../images/projects/bo4.png");
     background-position-y: 40%;
     background-position-x: 50%;
     transition: 1s;
@@ -213,18 +228,17 @@ h2{
 }
 
 .gbox3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/movies.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/projects/movie.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 0%;
+    background-position-y: 5%;
     transition: 1s;
 }
 
 .gbox4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Flash_Card_Create.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/projects/flashcard_home.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 0%;
     transition: 1s;
 }
 

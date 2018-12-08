@@ -5,6 +5,14 @@ import './css/svg_animations.css';
 import './css/socialbar.css';
 import hero from './images/heroimg.jpg';
 import svg from './svg/herodrawing.svg';
+import reactlogo from './images/logos/react.png';
+import railslogo from './images/logos/rails.png';
+import reduxlogo from './images/logos/redux.png';
+import jslogo from './images/logos/js.png';
+import htmlcsslogo from './images/logos/htmlcss.png';
+import gitlogo from './images/logos/git.png';
+import djangologo from './images/logos/django.png';
+
 
 class Home extends React.Component {
 render() {
@@ -100,7 +108,28 @@ render() {
             </a>
 
             <h2>My Skills</h2>
-            <div className="skillsContainer">
+            <div className="skills-container">
+                <div className="skill-item">
+                    <img src={reactlogo} width="230" height="150"/>
+                </div>
+                <div className="skill-item">
+                    <img src={railslogo} width="300" height="100"/>
+                </div>
+                <div className="skill-item">
+                    <img src={reduxlogo} width="100" height="100"/>
+                </div>
+                <div className="skill-item">
+                    <img src={jslogo} width="100" height="100"/>
+                </div>
+                <div className="skill-item">
+                    <img src={htmlcsslogo} width="250" height="150"/>
+                </div>
+                <div className="skill-item">
+                    <img src={gitlogo} width="100" height="100"/>
+                </div>
+                <div className="skill-item">
+                    <img src={djangologo} width="300" height="200"/>
+                </div>
             </div>
 
 
