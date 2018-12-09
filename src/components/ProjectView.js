@@ -7,6 +7,10 @@ import flashCard from './images/projects/flashcard_home.png';
 import { Link } from 'react-router-dom';
 
 class ProjectView extends React.Component {
+  
+  state = {
+    projectName: '',
+  }
 
   render () {
     var innerImage = ''
@@ -34,6 +38,7 @@ class ProjectView extends React.Component {
         <div className="devices">
           <div className="mac">
             <img src={innerImage} className="inner-image"/>
+            <h1>{this.state.projectName}</h1>
           </div>
         </div>
       </>
