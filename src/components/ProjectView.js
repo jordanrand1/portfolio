@@ -10,6 +10,7 @@ class ProjectView extends React.Component {
   
   state = {
     projectName: '',
+    description: '',
   }
 
   render () {
