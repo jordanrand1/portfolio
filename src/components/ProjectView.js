@@ -41,6 +41,7 @@ class ProjectView extends React.Component {
             <img src={innerImage} className="inner-image"/>
             <h1>{this.state.projectName}</h1>
             <h1>Stack: </h1>
+            <h1>About</h1>
           </div>
         </div>
       </>
