@@ -62,8 +62,8 @@ class ProjectView extends React.Component {
         </div>
         <div className="container">
           <h1 className="title-text">{this.state.projectName}</h1>
-          <h1 className="body-text">Stack: </h1>
-          <h1 className="body-text">Description: <br/> {this.state.description}</h1>
+          <h3 className="body-text">Stack: </h3>
+          <h3 className="body-text">Description: <br/> {this.state.description}</h3>
         </div>
       </>
     )

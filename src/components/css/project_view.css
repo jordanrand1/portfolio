@@ -29,6 +29,7 @@
   height: 30px;
   padding-top: 10px;
   border-radius: 30px;
+  z-index: 100;
 
 }
 
@@ -59,5 +60,29 @@
 @media (min-width: 1260px){
   .inner-image {
     max-width: 65%;
+  }
+}
+
+@media (max-width: 1200px){
+  .container {
+    margin: -100px 20% 50px 20%;
+  }
+}
+
+@media (max-width: 1000px){
+  .container {
+    margin: -200px 20% 50px 20%;
+  }
+}
+
+@media (max-width: 800px){
+  .container {
+    margin: -275px 20% 50px 20%;
+  }
+}
+
+@media (max-width: 600px){
+  .container {
+    margin: -350px 20% 50px 20%;
   }
 }
