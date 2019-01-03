@@ -371,6 +371,6 @@ h2{
 
     .grid2x2 > a  {
         flex-direction: column;
-        flex-basis: 80%;
+        flex-basis: 100%;
     }
 }
