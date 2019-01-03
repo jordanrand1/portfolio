@@ -189,13 +189,13 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: -25%;
-    margin-right: -25%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .grid2x2 > a {
     display: flex;
-    flex-basis: calc(50% - 40px);
+    flex-basis: calc(50% - 20px);
     justify-content: center;
     flex-direction: column;
     text-decoration: none;

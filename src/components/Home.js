@@ -94,6 +94,7 @@ render() {
           <div className="wrapper">
             <h2>Projects</h2>
             <p></p>
+          </div>
 
             <div className="grid2x2">
                 <Link to="/bo4companion" className="gbox gbox1"><div>BO4 Companion</div></Link>
@@ -101,6 +102,8 @@ render() {
                 <Link to="/moviedb" className="gbox gbox3"><div>Movie Database App</div></Link>
                 <Link to="/flashcard" className="gbox gbox4"><div>Flash Cards (WIP)</div></Link>
             </div>
+            
+        <div className="wrapper">
 
             <h2>Resume</h2>
             <a href={require("./images/JordanRand_Resume.pdf")} download>
