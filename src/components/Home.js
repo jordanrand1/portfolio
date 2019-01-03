@@ -58,7 +58,7 @@ render() {
             </div>
             <img src={svg} alt="Svg" width="100%" height="100%" className="hero-drawing"/>
             <div className="hero-text">
-                <h1 style={{fontSize: "26px"}}>Welcome to my site</h1>
+                <h1 style={{fontSize: "26px"}}>Welcome</h1>
                 <p style={{fontSize: "24px"}}>My name is Jordan</p>
             </div>
             <div className="hero-triangle">
