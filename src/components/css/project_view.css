@@ -1,3 +1,15 @@
+.container {
+  margin: 0px 20% 50px 20%;
+}
+
+.title-text {
+  color: #a78240;
+}
+
+.body-text {
+  color: #6e6e6e;
+}
+
 .devices {
   display: flex;
   height: 600px;
