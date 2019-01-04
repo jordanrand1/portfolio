@@ -92,6 +92,14 @@ render() {
         </div>
 
           <div className="wrapper">
+            <h2>Software Developer</h2>
+            <p>
+                Thanks for checking out my website! I am a software developer in the Salt Lake City area.
+                I am currently looking to take on some clients to expand my portfolio so if you have an idea or
+                if you or someone you know who is starting a business and needs a website please reach out to me
+                via e-mail, twitter, or facebook. 
+            </p>
+
             <h2>Projects</h2>
             <p></p>
           </div>
@@ -102,7 +110,7 @@ render() {
                 <Link to="/moviedb" className="gbox gbox3"><div>Movie Database App</div></Link>
                 <Link to="/flashcard" className="gbox gbox4"><div>Flash Cards (WIP)</div></Link>
             </div>
-            
+
         <div className="wrapper">
 
             <h2>Resume</h2>
@@ -149,7 +157,7 @@ render() {
                 <div className="footer-box">
                     <h2>Contact</h2>
                     <p style={{color: "#6b6b6b"}}>
-                        <a href="mailto:jorrand@gmail.com" style={{textDecoration: 'none', color: '#a78240'}}>E-Mail: jorrand@gmail.com</a>
+                        <a href="mailto:thedesertdev@gmail.com" style={{textDecoration: 'none', color: '#a78240'}}>E-Mail: thedesertdev@gmail.com</a>
                     </p>
                 </div>
         

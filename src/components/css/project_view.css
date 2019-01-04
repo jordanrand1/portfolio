@@ -36,7 +36,10 @@
 .phone {
   background-image: url("../images/phone.png");
   background-size: contain;
-
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  position: relative;
 }
 
 .mac {
