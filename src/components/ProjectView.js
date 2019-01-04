@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/project_view.css';
 import bo4 from './images/projects/bo4.png';
-import bo4Mobile from './images/projects/bo4companion_mobile.jpg';
 import yieldHome from './images/projects/yield_home.png';
 import yieldUsers from './images/projects/yield_users.png';
 import yieldEdit from './images/projects/yield_edit.png';
@@ -21,7 +20,6 @@ class ProjectView extends React.Component {
   }
 
   componentDidMount () {
-    var innerImage = ''
     var description = ''
     var projectName = ''
     var images = []
@@ -48,7 +46,7 @@ class ProjectView extends React.Component {
         description = 'A passion project that will utilize machine learning to maximize learning proficiency.'
         break
       default: 
-        innerImage = 'none'
+        images = []
         description = 'none'
     }
     this.setState({
