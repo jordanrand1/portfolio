@@ -1,3 +1,21 @@
+.fa-angle-right {
+  font-size: 80px !important;
+  color: #a78240 !important;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  z-index: 100;
+}
+
+.fa-angle-left {
+  font-size: 80px !important;
+  color: #a78240 !important;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 100;
+}
+
 .container {
   margin: 0px 20% 50px 20%;
 }
@@ -87,5 +105,25 @@
 @media (max-width: 600px){
   .container {
     margin: -350px 20% 50px 20%;
+  }
+  .devices{
+    margin: 60px auto 0 auto;
+  }
+  .fa-angle-right {
+    font-size: 80px !important;
+    color: #a78240 !important;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    z-index: 100;
+  }
+
+  .fa-angle-left {
+    font-size: 80px !important;
+    color: #a78240 !important;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 100;
   }
 }
