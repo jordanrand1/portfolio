@@ -81,6 +81,9 @@
 @media (min-width: 1260px){
   .inner-image {
     max-width: 65%;
+    height: 410px;
+    margin-top: 82px;
+    left: 170px;
   }
 }
 
