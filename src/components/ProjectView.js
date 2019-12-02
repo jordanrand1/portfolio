@@ -66,7 +66,7 @@ class ProjectView extends React.Component {
         projectName = 'FabrIQ'
         stack = 'React, Electron, Django, Redux'
         images = [fabriqHome]
-        link = 'https://github.com/jordanrand1/fabriq/releases'
+        link = 'https://tryfabriq.com'
         learning = 'In this role I learned the Electron.js framework. I also took a personal oath to improve my code by writing cleaner, readable code. I also learned of the great benefits of unit testing and how it can result in a more stable product. I spent a large amount of time debugging and researching solutions to technical problems.'
         description = 'A tool to improve the workflow of freelancers and content creators.'
         break
