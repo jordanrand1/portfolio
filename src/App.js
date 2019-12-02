@@ -14,6 +14,8 @@ class App extends React.Component {
         <Route path="/yield" exact component={ProjectView} />
         <Route path="/moviedb" exact component={ProjectView} />
         <Route path="/flashcard" exact component={ProjectView} />
+        <Route path="/paydrt" exact component={ProjectView} />
+        <Route path="/fabriq" exact component={ProjectView} />
         </>
       </Router>
     )
