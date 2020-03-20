@@ -132,6 +132,10 @@ function Home (props) {
             <h2>Projects</h2>
         </div>
             <div className="project-box">
+                <div className="project-item">
+                    <img src={require('./images/projects/blerp.PNG')} className="project-image"/>
+                    <div onClick={() => props.history.push('/blerp')} className="project-text"><p className="project-text-font">Blerp</p></div>
+                </div>
                 <div as={Link} to="/fabriq" className="project-item">
                     <img src={require('./images/projects/fabriq_home.png')} className="project-image"/>
                     <div onClick={() => props.history.push('/fabriq')} className="project-text"><p className="project-text-font">Fabriq</p></div>
@@ -140,14 +144,10 @@ function Home (props) {
                     <img src={require('./images/projects/paydrt_home.png')} className="project-image"/>
                     <div onClick={() => props.history.push('/paydrt')} className="project-text"><p className="project-text-font">Paydrt</p></div>
                 </div>
-                <div className="project-item">
-                    <img src={require('./images/projects/bo4.png')} className="project-image"/>
-                    <div onClick={() => props.history.push('/bo4companion')} className="project-text"><p className="project-text-font">Black Ops 4 Companion</p></div>
-                </div>
-                <div className="project-item">
+                {/* <div className="project-item">
                     <img src={require('./images/projects/movie.png')} className="project-image"/>
                     <div onClick={() => props.history.push('/moviedb')} className="project-text"><p className="project-text-font">Movie DB App</p></div>
-                </div>
+                </div> */}
             </div>
 
         <div className="wrapper">

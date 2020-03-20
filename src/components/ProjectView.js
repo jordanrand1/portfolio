@@ -10,6 +10,7 @@ import flashcardHome from './images/projects/flashcard_home.png';
 import flashcardView from './images/projects/flashcard_view.png';
 import paydrtHome from './images/projects/paydrt_home.png';
 import fabriqHome from './images/projects/fabriq_home.png';
+import blerpHome from './images/projects/blerp.PNG';
 import { Link } from 'react-router-dom';
 
 class ProjectView extends React.Component {
@@ -69,6 +70,14 @@ class ProjectView extends React.Component {
         link = 'https://tryfabriq.com'
         learning = 'In this role I learned the Electron.js framework. I also took a personal oath to improve my code by writing cleaner, readable code. I also learned of the great benefits of unit testing and how it can result in a more stable product. I spent a large amount of time debugging and researching solutions to technical problems.'
         description = 'A tool to improve the workflow of freelancers and content creators.'
+        break
+      case 'blerp':
+        projectName = 'Blerp'
+        stack = 'React, GraphQL, NodeJS, Twitch API'
+        images = [blerpHome]
+        link = 'https://blerp.com'
+        learning = 'Learning how to build a Twitch Extension and how to make changes in a large codebase.'
+        description = 'A streaming extension for Twitch where viewers can share sound bites with streamers.'
         break
       default: 
         images = []
