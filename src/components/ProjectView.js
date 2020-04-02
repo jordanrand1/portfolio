@@ -11,6 +11,7 @@ import flashcardView from './images/projects/flashcard_view.png';
 import paydrtHome from './images/projects/paydrt_home.png';
 import fabriqHome from './images/projects/fabriq_home.png';
 import blerpHome from './images/projects/blerp.PNG';
+import blerpStats from './images/blerp_stats.PNG';
 import { Link } from 'react-router-dom';
 
 class ProjectView extends React.Component {
@@ -74,7 +75,7 @@ class ProjectView extends React.Component {
       case 'blerp':
         projectName = 'Blerp'
         stack = 'React, GraphQL, NodeJS, Twitch API'
-        images = [blerpHome]
+        images = [blerpHome, blerpStats]
         link = 'https://blerp.com'
         learning = 'Learning how to build a Twitch Extension and how to make changes in a large codebase.'
         description = 'A streaming extension for Twitch where viewers can share sound bites with streamers.'
@@ -117,13 +118,16 @@ class ProjectView extends React.Component {
   render () {
     return (
       <>
-        <Link to="/" className="back-button">Back</Link>
-        <div className="devices">
-        { this.state.images.length > 1 ? this.displayControls() : <></>}
+        <Link to="/#projects" className="back-button">Back</Link>
+        <div>
+          { this.state.images.length > 1 ? this.displayControls() : <></>}
+          <div className="parallax3" style={{backgroundImage: `url(${this.state.images[this.state.imgNum]})`}}></div>
+        </div>
+        {/* <div className="devices">
           <div className="mac">
             <div className="inner-image" style={{backgroundImage: `url(${this.state.images[this.state.imgNum]})`}} ></div>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <h1 className="title-text">{this.state.projectName} <a href={this.state.link} target="_blank" style={{float: 'right', textDecoration: 'none', color: '#29f3c3'}}>Link to project</a></h1>
           <h3 className="body-text">Stack: {this.state.stack}</h3>

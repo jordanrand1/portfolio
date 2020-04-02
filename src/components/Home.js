@@ -38,6 +38,7 @@ function Home (props) {
                 isScrolledIntoView(skill.element) ? skill.element.style = `width: ${skill.width}` : skill.element.style = 'width: 0%'
             })
         })
+        
         return () => {
             window.removeEventListener("scroll", event => {});
           };
@@ -129,7 +130,7 @@ function Home (props) {
         <div className="parallax2"></div>
 
         <div className="wrapper">
-            <h2>Projects</h2>
+            <h2 id="projects">Projects</h2>
         </div>
             <div className="project-box">
                 <div className="project-item">
